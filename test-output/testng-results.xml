@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T21:29:45 IST" name="Default suite" finished-at="2024-10-03T21:29:58 IST" duration-ms="13359">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T21:29:45 IST" name="Default test" finished-at="2024-10-03T21:29:58 IST" duration-ms="13359">
+      <class name="baseClass.Amazon">
+        <test-method is-config="true" signature="setup()[pri:0, instance:baseClass.Amazon@31ea9581]" started-at="2024-10-03T21:29:45 IST" name="setup" finished-at="2024-10-03T21:29:46 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="home()[pri:1, instance:baseClass.Amazon@31ea9581]" started-at="2024-10-03T21:29:46 IST" name="home" finished-at="2024-10-03T21:29:56 IST" duration-ms="10194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method signature="item()[pri:2, instance:baseClass.Amazon@31ea9581]" started-at="2024-10-03T21:29:56 IST" name="item" finished-at="2024-10-03T21:29:56 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- item -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:baseClass.Amazon@31ea9581]" started-at="2024-10-03T21:29:56 IST" name="teardown" finished-at="2024-10-03T21:29:58 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- baseClass.Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
