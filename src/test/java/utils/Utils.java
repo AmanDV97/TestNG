@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 
 public class Utils {
 	public static WebDriver driver;
-	public static String url = "https://www.amazon.in/ref=nav_logo";
 	public static int count = 0;
 	
 	public Utils(WebDriver driver){

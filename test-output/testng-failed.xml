@@ -5,8 +5,12 @@
     <classes>
       <class name="baseClass.Amazon">
         <methods>
+          <include name="debug"/>
+          <include name="item"/>
+          <include name="cart"/>
+          <include name="teardown"/>
           <include name="home"/>
-          <include name="setup"/>
+          <include name="BrowserSetup"/>
         </methods>
       </class> <!-- baseClass.Amazon -->
     </classes>
