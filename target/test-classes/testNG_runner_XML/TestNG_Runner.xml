@@ -1,7 +1,12 @@
-<suite name="Reports" parallel="tests" thread-count="5">
+<suite name="Reports" parallel="tests" thread-count="2">
 	<test name="Amazon">
 		<classes>
 			<class name="baseClass.Amazon"/>
+		</classes>
+	</test>
+	<test name="ParallelEx">
+		<classes>
+			<class name="baseClass.ParallelExecutionEx"/>
 		</classes>
 	</test>
 </suite>

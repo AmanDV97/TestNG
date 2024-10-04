@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Reports]">
-  <test thread-count="5" parallel="tests" name="Amazon(failed)">
+  <test thread-count="5" parallel="tests" name="ParallelEx(failed)">
     <classes>
-      <class name="baseClass.Amazon">
+      <class name="baseClass.ParallelExecutionEx">
         <methods>
+          <include name="browserSetup"/>
           <include name="teardown"/>
-          <include name="home"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- baseClass.Amazon -->
+      </class> <!-- baseClass.ParallelExecutionEx -->
     </classes>
-  </test> <!-- Amazon(failed) -->
+  </test> <!-- ParallelEx(failed) -->
 </suite> <!-- Failed suite [Reports] -->

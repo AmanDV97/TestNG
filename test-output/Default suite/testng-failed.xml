@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="baseClass.Amazon">
+      <class name="baseClass.ParallelExecutionEx">
         <methods>
-          <include name="debug"/>
-          <include name="item"/>
-          <include name="cart"/>
           <include name="teardown"/>
-          <include name="home"/>
-          <include name="BrowserSetup"/>
+          <include name="browserSetup"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- baseClass.Amazon -->
+      </class> <!-- baseClass.ParallelExecutionEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
